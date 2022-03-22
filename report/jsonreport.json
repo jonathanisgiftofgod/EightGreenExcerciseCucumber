@@ -1,0 +1,170 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 37,
+        "name": "Validating the all the details for booking a room in adactin url",
+        "description": "",
+        "id": "open-the-url-of-adactin;validating-the-all-the-details-for-booking-a-room-in-adactin-url;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15498276914,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Open the adactin url",
+            "match": {
+              "location": "AdactinStepDefinition.open_the_adactin_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 833304824,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter the login \"britto619\" and \"SR185Y\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"britto619\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"SR185Y\"",
+                  "offset": 32
+                }
+              ],
+              "location": "AdactinStepDefinition.enter_the_login_and_details(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4464163573,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter the next or submit button",
+            "match": {
+              "location": "AdactinStepDefinition.enter_the_next_or_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4500147107,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Select the Location Hotel RoomType NoOfRooms",
+            "match": {
+              "location": "AdactinStepDefinition.select_the_Location_Hotel_RoomType_NoOfRooms()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3389007487,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter the NoOf Adults and NoofChilds",
+            "match": {
+              "location": "AdactinStepDefinition.enter_the_NoOf_Adults_and_NoofChilds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1859408837,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click the search",
+            "match": {
+              "location": "AdactinStepDefinition.click_the_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2445136073,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter the FirstName LastName Address CreditCardNumber",
+            "match": {
+              "location": "AdactinStepDefinition.enter_the_FirstName_LastName_Address_CreditCardNumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1355456345,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select the CardType ExpiryMonth ExpiryYear",
+            "match": {
+              "location": "AdactinStepDefinition.select_the_CardType_ExpiryMonth_ExpiryYear()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325123871,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter the cvv number",
+            "match": {
+              "location": "AdactinStepDefinition.enter_the_cvv_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250718713,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "click the BookNow",
+            "match": {
+              "location": "AdactinStepDefinition.click_the_BookNow()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Open the url of Adactin",
+    "description": "",
+    "id": "open-the-url-of-adactin",
+    "keyword": "Feature",
+    "uri": "C:/Users/Britto/eclipse-workspace/GreenExcerciseCucumber/featureFiles/AdactinBooking.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
